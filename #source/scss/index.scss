@@ -1,0 +1,30 @@
+@import "null.scss";
+@import "../raiting/raiting.scss";
+// ------------------------------------------------------------------------------
+// $default-color: ;
+// $default-ff: ;
+// ------------------------------------------------------------------------------
+html {
+    height: 100%;
+}
+body {
+    // font-family: $default-ff;
+    //color: $default-color;
+    font-weight: 400;
+    height: 100%;
+}
+[class*="__container"] {
+    //max-width: px; // container + 30px
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: clip;
+}
+.wrapper> main {
+    flex-grow: 1;
+}
