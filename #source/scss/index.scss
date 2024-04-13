@@ -1,20 +1,29 @@
+$default-color: rgb(51, 51, 51);
+$default-ff: Poppins;
+$default-bg: #C98A40;
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular,400,500,600,700,800,900,&display=swap);
 @import "null.scss";
+@import "reusable.scss";
+@import "hero.scss";
+@import "../hovers/passing_underline.scss";
 @import "../raiting/raiting.scss";
 // ------------------------------------------------------------------------------
-// $default-color: ;
-// $default-ff: ;
+
 // ------------------------------------------------------------------------------
 html {
     height: 100%;
 }
 body {
-    // font-family: $default-ff;
-    //color: $default-color;
+    font-family: $default-ff;
+    color: $default-color;
     font-weight: 400;
     height: 100%;
+    background: url('/img/hero/bakery.svg');
+    // background-color: $default-bg;
 }
 [class*="__container"] {
-    //max-width: px; // container + 30px
+    max-width: 1230px; // container + 30px
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -27,4 +36,39 @@ body {
 }
 .wrapper> main {
     flex-grow: 1;
+}
+.header {
+    z-index: 60;
+    &__container {
+        display: flex;
+        justify-content: flex-start;
+    }
+    padding-top: 28px;
+    &__logo {
+        flex: 0 1 248px;
+        
+    }
+}
+.page {
+    &__hero {
+        padding-top: 208px;
+        // padding-bottom: 65px;
+    }
+}
+.footer {
+    background: rgb(88, 65, 37);
+    height: 117px;
+    display: flex;
+    align-items: center;
+    &__content {
+      
+        text-align: center;
+    }
+    &__link {
+        color: #fff;
+        font-size: 24px;
+    }
+    &__link:hover {
+
+    }
 }

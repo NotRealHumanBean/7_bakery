@@ -1,0 +1,93 @@
+
+// @import  '$default-bg';
+.hero {
+    &__content {
+        color: rgb(255, 255, 255);
+        text-align: left;
+        max-width: 623px;
+        display: flex;//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        flex-direction: column;//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        padding-bottom: 65px;
+        position: relative;
+        z-index: 50;
+        // background-color: 
+    }
+    &__content::before {
+        content: "";
+        position: absolute;
+        background-color:$default-bg;
+        bottom: 0;
+        right: -240px;
+        width: 200vw;
+        height: 200vh;
+        z-index: -10;
+    }
+    &__main-title {
+        font-size: 74px;
+        font-weight: 800;
+        line-height: 120.27027%; /* 89/74 */
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    &__text {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 144.444444%; /* 26/18 */
+        margin-bottom: 40px;
+    }
+    &__button {
+       max-width: 195px; //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    }
+    &__links-block {
+    }
+}
+
+.links-block {
+    display: flex;
+    width: 863px;
+    &__social {
+       padding: 35px 38px;
+
+    }
+    &__list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 18px;
+ 
+        align-items: center;
+    }
+
+    // .links-block__item
+
+    &__item {
+    }
+
+    // .links-block__link
+
+    &__link {
+    }
+    &__link:hover {
+
+    } 
+    &__icon {
+    }
+
+    // .links-block__phone
+
+    &__phone {
+        background-color: $default-bg;
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        padding: 0px 0px 20px 20px;
+        a {
+            color: #ffff;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 144.444444%; /* 26/18 */
+            span {
+                font-weight: 500;
+            }
+        }
+    }
+}
