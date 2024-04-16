@@ -329,7 +329,7 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
       height: 103vh; } }
   @media (max-width: 591.98px) {
     .work__body::after {
-      height: 300vh; } }
+      height: 400vh; } }
 
 .work__text-part {
   display: -webkit-box;
@@ -472,7 +472,7 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   top: -7%;
   right: -265px;
   width: 128vw;
-  height: 125vh;
+  height: 130vh;
   z-index: -10; }
   @media (max-width: 991.98px) {
     .about__content:before {
