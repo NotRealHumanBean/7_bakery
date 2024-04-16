@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <title>Bakery</title>
@@ -12,10 +13,10 @@
 <body>
     <div class="wrapper">
         <header class="header">
-    <div class="header__container">
-        <img src="/img/logo.svg" alt="Logo" class="header__logo">
-    </div>
-</header>
+            <div class="header__container">
+                <img src="/img/logo.svg" alt="Logo" class="header__logo">
+            </div>
+        </header>
         <main class="page">
             <section class="page__hero hero">
                 <div class="hero__container">
@@ -30,45 +31,324 @@
                         <div class="links-block__social">
                             <ul class="links-block__list">
                                 <li class="links-block__item">
-                                    <a href="" class="links-block__link">
-                                        <img src="/img/hero/01.svg" alt="icon" class="links-block__icon">
+                                    <a href="" class="links-block__link icon-01">
                                     </a>
                                 </li>
                                 <li class="links-block__item">
-                                    <a href="" class="links-block__link">
-                                        <img src="/img/hero/02.svg" alt="icon" class="links-block__icon">
+                                    <a href="" class="links-block__link icon-02">
                                     </a>
                                 </li>
                                 <li class="links-block__item">
-                                    <a href="" class="links-block__link">
-                                        <img src="/img/hero/03.svg" alt="icon" class="links-block__icon">
+                                    <a href="" class="links-block__link icon-03">
                                     </a>
                                 </li>
                                 <li class="links-block__item">
-                                    <a href="" class="links-block__link">
-                                        <img src="/img/hero/04.svg" alt="icon" class="links-block__icon">
+                                    <a href="" class="links-block__link icon-04">
                                     </a>
                                 </li>
                             </ul>
                         </div>
                         <div class="links-block__phone">
-                            <a href="tel: +380555555555">Telephone: <span>+380 55 555 55 55</span></a>
+                            <a href="tel: +380555555555">Telephone: <span class="passing-underline">+380 55 555 55
+                                    55</span></a>
                         </div>
                     </div>
                 </div>
             </section>
-        </main>
+            <section class="page__work work">
+                <div class="work__container">
+                    <div class="work__body">
+                        <div class="work__text-part">
+                            <div class="work__text">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the
+                                </p>
+                            </div>
+                            <h2 class="work__title reusable__title">
+                                How we work
+                            </h2>
+                        </div>
+                        <div class="work__gallery gallery">
+                            <div class="gallery__card ibg">
+                                <img src="/img/work/01.jpeg" class="gallery__image" alt="Image">
+                            </div>
+                            <div class="gallery__card ibg">
+                                <img src="/img/work/02.jpeg" class="gallery__image" alt="Image">
+                            </div>
+                            <div class="gallery__card ibg">
+                                <img src="/img/work/03.jpeg" class="gallery__image" alt="Image">
+                            </div>
+                            <div class="gallery__card ibg">
+                                <img src="/img/work/04.jpeg" class="gallery__image" alt="Image">
+                            </div>
+                        </div>
+                        <div class="work__button-holder">
+                            <a href="" class="reusable__button">Contact us</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__about about">
+                <div class="about__container">
+                    <div class="about__body">
+                        <div class="about__content">
+                            <h2 class="about__title reusable__title">
+                                About us
+                            </h2>
+                            <div class="about__text">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived not only five centuries, but also the leap into electronic typesetting,
+                                    remaining essentially unchanged. It was popularised in the 1960s with the release of
+                                    Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-        <footer class="footer">
-    <div class="footer__container">
-        <div class="footer__content">
-            <a href="https://notrealhumanbean.github.io/portfolio/" class="footer__link passing-underline">
-                more pages here
-            </a>
-        </div>
-    </div>
-</footer>
+                                </p>
+                            </div>
+                            <div class="about__button-container">
+                                <a href="" class="reusable__button">Contact us</a>
+                            </div>
+                        </div>
+                        <div class="about__image image ibg">
+                            <img src="/img/about/01.jpeg" alt="Chef">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__services services">
+                <div class="services__container">
+                    <div class="services__body">
+                        <h2 class="services__title reusable__title">
+                            Services
+                        </h2>
+                        <div class="services__items">
+                            <article class="services__item item-services">
+                                <div class="item-services__image ibg">
+                                    <img src="/img/services/01.jpeg" alt="Services image">
+                                </div>
+                                <div class="item-services__content">
+                                    <h3 class="item-services__title article-title">
+                                        Lorem Ipsum
+                                    </h3>
+                                    <p class="item-services__text">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="services__item item-services">
+                                <div class="item-services__image ibg">
+                                    <img src="/img/services/02.jpeg" alt="Services image">
+                                </div>
+                                <div class="item-services__content">
+                                    <h3 class="item-services__title article-title">
+                                        Lorem Ipsum
+                                    </h3>
+                                    <p class="item-services__text">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="services__item item-services span-3">
+                                <div class="item-services__image ibg">
+                                    <img src="/img/services/03.jpeg" alt="Services image">
+                                </div>
+                                <div class="item-services__content">
+                                    <h3 class="item-services__title article-title">
+                                        Lorem Ipsum
+                                    </h3>
+                                    <p class="item-services__text">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="services__button-holder">
+                            <a href="" class="reusable__button">Contact us</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <section class="page__testymonials testymonials">
+            <div class="testymonials__container">
+                <div class="testymonials__body">
+                    <h2 class="testymonials__title reusable__title">
+                        testymonials
+                    </h2>
+                    <div class="testymonials__content content-testymonials">
+                        <article class="content-testymonials__item">
+                            <h3 class="content-testymonials__title article-title">
+                                Kathryn Murphy
+                            </h3>
+                            <p class="content-testymonials__text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                                the 1500s, when an unknown printer took a galley of type and scrambled</p>
+                            <div class="rating">
+                                <div class="rating__items">
+                                    <input id="rating__5-1" type="radio" class="rating__item" name="rating-1" value="5">
+                                    <label for="rating__5-1" class="rating__label"></label>
+                                    <input id="rating__4-1" type="radio" class="rating__item" name="rating-1" value="4">
+                                    <label for="rating__4-1" class="rating__label"></label>
+                                    <input id="rating__3-1" type="radio" class="rating__item" name="rating-1" checked
+                                        value="3">
+                                    <label for="rating__3-1" class="rating__label"></label>
+                                    <input id="rating__2-1" type="radio" class="rating__item" name="rating-1" value="2">
+                                    <label for="rating__2-1" class="rating__label"></label>
+                                    <input id="rating__1-1" type="radio" class="rating__item" name="rating-1" value="1">
+                                    <label for="rating__1-1" class="rating__label"></label>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="content-testymonials__item">
+                            <h3 class="content-testymonials__title article-title">
+                                Kathryn Murphy
+                            </h3>
+                            <p class="content-testymonials__text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                                the 1500s, when an unknown printer took a galley of type and scrambled</p>
+                            <div class="rating">
+                                <div class="rating__items">
+                                    <input id="rating__5-2" type="radio" class="rating__item" name="rating-2" value="5">
+                                    <label for="rating__5-2" class="rating__label"></label>
+                                    <input id="rating__4-2" type="radio" class="rating__item" name="rating-2" value="4">
+                                    <label for="rating__4-2" class="rating__label"></label>
+                                    <input id="rating__3-2" type="radio" class="rating__item" name="rating-2" checked
+                                        value="3">
+                                    <label for="rating__3-2" class="rating__label"></label>
+                                    <input id="rating__2-2" type="radio" class="rating__item" name="rating-2" value="2">
+                                    <label for="rating__2-2" class="rating__label"></label>
+                                    <input id="rating__1-2" type="radio" class="rating__item" name="rating-2" value="1">
+                                    <label for="rating__1-2" class="rating__label"></label>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="content-testymonials__item">
+                            <h3 class="content-testymonials__title article-title">
+                                Kathryn Murphy
+                            </h3>
+                            <p class="content-testymonials__text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                                the 1500s, when an unknown printer took a galley of type and scrambled</p>
+                            <div class="rating">
+                                <div class="rating__items">
+                                    <input id="rating__5-3" type="radio" class="rating__item" name="rating-3" value="5">
+                                    <label for="rating__5-3" class="rating__label"></label>
+                                    <input id="rating__4-3" type="radio" class="rating__item" name="rating-3" value="4">
+                                    <label for="rating__4-3" class="rating__label"></label>
+                                    <input id="rating__3-3" type="radio" class="rating__item" name="rating-3" checked
+                                        value="3">
+                                    <label for="rating__3-3" class="rating__label"></label>
+                                    <input id="rating__2-3" type="radio" class="rating__item" name="rating-3" value="2">
+                                    <label for="rating__2-3" class="rating__label"></label>
+                                    <input id="rating__1-3" type="radio" class="rating__item" name="rating-3" value="1">
+                                    <label for="rating__1-3" class="rating__label"></label>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="content-testymonials__item">
+                            <h3 class="content-testymonials__title article-title">
+                                Kathryn Murphy
+                            </h3>
+                            <p class="content-testymonials__text">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                                the 1500s, when an unknown printer took a galley of type and scrambled
+                            </p>
+                            <div class="rating">
+                                <div class="rating__items">
+                                    <input id="rating__5-4" type="radio" class="rating__item" name="rating-4" value="5">
+                                    <label for="rating__5-4" class="rating__label"></label>
+                                    <input id="rating__4-4" type="radio" class="rating__item" name="rating-4" value="4">
+                                    <label for="rating__4-4" class="rating__label"></label>
+                                    <input id="rating__3-4" type="radio" class="rating__item" name="rating-4" checked
+                                        value="3">
+                                    <label for="rating__3-4" class="rating__label"></label>
+                                    <input id="rating__2-4" type="radio" class="rating__item" name="rating-4" value="2">
+                                    <label for="rating__2-4" class="rating__label"></label>
+                                    <input id="rating__1-4" type="radio" class="rating__item" name="rating-4" value="1">
+                                    <label for="rating__1-4" class="rating__label"></label>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="testymonials__button-holder">
+                        <a href="" class="reusable__button">Contact us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page__contact contact">
+            <div class="contact__container">
+                <div class="contact__title reusable__title">Contact Us</div>
+                <div class="contact__content">
+                    <div class="contact__form">
+                        <form action="#" id="form">
+                            <div class="input-container">
+                                <input type="text" id="name" name="name" placeholder="Your Name"
+                                    class="_req form-input">
+                            </div>
+                            <div class="input-container">
+                                <input type="email" id="email" name="email" placeholder="Your Email"
+                                    class="_req _email form-input">
+                            </div>
+                            <div class="input-container">
+                                <input type="textarea" id="name" placeholder="Your Message">
+                            </div>
+                            <div class="form-button-container">
+                                <input class="form-button" type="submit" value="Send""></input>
+                    </div>
+                </form>
+            </div>
+            <div class=" contact__info">
+                                <div class="contact__item">
+                                    <div class="contact__icon">
+                                        <img src="img/contact/01.svg" alt="contact icon">
+                                    </div>
+                                    <div class="contact__link">
+                                        <a href="mailto: test@egmail.com">test@gmail.com</a>
+                                    </div>
+                                </div>
+                                <div class="contact__item">
+                                    <div class="contact__icon">
+                                        <img src="img/contact/02.svg" alt="contact icon">
+                                    </div>
+                                    <div class="contact__link">
+                                        <a href="tel:(303)555-0105">(303)555-0105</a>
+                                    </div>
+                                </div>
+                                <div class="contact__item">
+                                    <div class="contact__icon">
+                                        <img src="img/contact/03.svg" alt="contact icon">
+                                    </div>
+                                    <div class="contact__link">
+                                        <a href="https://maps.app.goo.gl/aLhBi98EizHFtwxn8">2715 Ash Dr. San Jose, South
+                                            Dakota
+                                            83475</a>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="footer__container">
+                    <div class="footer__content">
+                        <a href="https://notrealhumanbean.github.io/portfolio/" class="footer__link passing-underline">
+                            more pages here
+                        </a>
+                    </div>
+                </div>
+            </footer>
     </div>
 </body>
+<script src="js/main-dist.js"></script>
 
 </html>
