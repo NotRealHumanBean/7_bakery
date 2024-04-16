@@ -39,7 +39,7 @@
     }
     @media(min-width: 1200px) {
         &__content::after {
-            content: url("/img/hero/pancake.svg");
+            content: url("../img/hero/pancake.svg");
             position: absolute;
             bottom: -150px;
             right: -578px;

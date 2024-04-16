@@ -200,7 +200,7 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
 
 @media (min-width: 1200px) {
   .hero__content::after {
-    content: url("/img/hero/pancake.svg");
+    content: url("../img/hero/pancake.svg");
     position: absolute;
     bottom: -150px;
     right: -578px; }
@@ -609,7 +609,7 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
     text-align: left; }
 
 .testymonials {
-  background: #C98A40 url("/img/white.svg"); }
+  background: #C98A40 url("../img/white.svg"); }
   .testymonials__body {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -900,7 +900,7 @@ body {
   color: #333333;
   font-weight: 400;
   height: 100%;
-  background: url("/img/hero/bakery.svg"); }
+  background: url("../img/hero/bakery.svg"); }
 
 [class*="__container"] {
   max-width: 1230px;

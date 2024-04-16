@@ -23,7 +23,7 @@ body {
     color: $default-color;
     font-weight: 400;
     height: 100%;
-    background: url('/img/hero/bakery.svg');
+    background: url('../img/hero/bakery.svg');
 }
 [class*="__container"] {
     max-width: 1230px; // container + 30px
