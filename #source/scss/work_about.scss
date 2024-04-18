@@ -1,5 +1,8 @@
 
 .work {
+    @media(max-width: 661.98px) {
+        background-color: $default-bg;
+    }
     &__body {
         position: relative;
         display: flex;
@@ -77,9 +80,9 @@
         }
     }
     @media(max-width: 661.98px) {
-        &__body::after {
-            left: -100%;
-        }
+        // &__body::after {
+        //     left: -100%;
+        // }
         &__text-part {
             flex-direction: column;
             flex-direction: column-reverse;
@@ -154,16 +157,16 @@
         width: 128vw;
         // height: 900px;
         @media(max-width: 991.98px) {
-            top: -12%;
+            // top: -12%;
             right: -250px;
         }
         @media(max-width: 791.98px) {
             width: 200vw;
-            top: -15%;
+            // top: -15%;
             right: -100%;
         }
         @media(max-width: 691.98px) {
-            top: -25%;
+            // top: -25%;
         }
         // height: 130vh;
         height: 130vh;//////////////////////////////////////////////////////
